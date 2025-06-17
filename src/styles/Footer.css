@@ -1,0 +1,38 @@
+.last {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(252, 221, 215, 0.2);
+}
+.lastline {
+  color: black;
+  opacity: 0.7;
+}
+#cir {
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(83, 91, 242, 0.4);
+}
+#cir img {
+  width: 25px;
+  height: 25px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.logoname {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: black;
+}

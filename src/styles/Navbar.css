@@ -1,0 +1,45 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 9vh;
+    padding: 1rem 2rem;
+    border-bottom: 1px solid #ccc;
+    background-color: white;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1 rem;
+    justify-content: space-between;
+}
+#cir{
+    border-radius: 50%;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.logoname{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: black;
+
+}
+.moto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 300;
+    color: black;
+    opacity:0.6;
+}
+#cir img{
+    width: 25px;
+    height: 25px;
+}
