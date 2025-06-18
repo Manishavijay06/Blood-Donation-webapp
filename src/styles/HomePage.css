@@ -1,0 +1,131 @@
+.Home-container{
+    width: 100%;
+    min-width: 100vw;  
+    box-sizing: border-box;
+    
+}
+.Hero-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 64px;
+}
+.Hero-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 500;
+}
+.Hero-description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    max-width: 60%;
+    font-weight: 200;
+    text-align: center;
+}
+.Cards-holder{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 128px;
+    margin-bottom: 64px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    height: 440px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(80, 80, 80);
+    border-radius: 10px;
+}
+.card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.Heart-logo-holder{
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    padding: 21px;
+    border-radius: 10px;
+    background-color: rgb(219,97,97,100%);
+}
+.Search-logo-holder{
+    margin: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    padding: 21px;
+    border-radius: 10px;
+    background-color: rgb(103,146,201,100%);
+}
+.Card-text-holder{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px;
+    margin-bottom: 32px;
+}
+.Card-title{
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+.Card-desc{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    opacity: 0.9;
+}
+.Perks{
+    font-size: 16px;
+    font-weight: 300;
+    text-align: left;
+    opacity: 1;
+    line-height: 25px;
+    margin-bottom: 32px;
+}
+.DonorButton{
+    padding: 13px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(219,97,97,100%);
+    color: white;
+}
+.RecipientButton{
+    padding: 13px;
+    width: 80%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgb(103,146,201,100%);
+    color: white;
+}
+.RecipientButton:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+.DonorButton:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}

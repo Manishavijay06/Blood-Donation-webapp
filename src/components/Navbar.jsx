@@ -1,18 +1,19 @@
+import heartlogo from "../assets/HeartLogo.svg";
 import "../styles/Navbar.css";
-import hearticon from "../assets/heart-circle-icon.svg";
-export default function () {
+export default function Navbar() {
   return (
     <>
       <div className="navbar">
-        <div className="logo">
-          <div id="logoimg">
-            <div id="cir">
-              <img src={hearticon}></img>
-            </div>
+        <div className="Logo">
+          <div className="Logo-img">
+            <img src={heartlogo}></img>
           </div>
-          <div className="logoname">BloodConnect</div>
+          <div className="Logo-text">BloodConnect</div>
         </div>
-        <div className="moto">Save Lives.Donate Blood</div>
+        <div className="sign-container">
+            <div className="login">Log In</div>
+            <div className="signin">Sign Up</div>
+        </div>
       </div>
     </>
   );
