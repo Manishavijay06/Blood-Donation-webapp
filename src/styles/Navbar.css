@@ -4,9 +4,9 @@
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  height: 6.2vh;
-  padding:30px 30px;
-  margin-bottom: 64px;
+  height: 10%;
+  padding:2% ;
+  margin-bottom: 3%;
   border-bottom: 1px solid ;
 }
 .Logo {
@@ -14,7 +14,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 5px;
+  gap: 1%;
 }
 .Logo-img{
     display: flex;
