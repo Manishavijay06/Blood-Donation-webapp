@@ -1,4 +1,4 @@
-.footer{
+.Footer__container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,24 +6,24 @@
     width: 100%;
     height: 178px;
 }
-.Logo {
+.Footer__Logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 5px;
 }
-.Logo-img{
+.Footer__Logo-img {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.Logo-text{
+.Footer__Logo-text {
     font-size: 23px;
     font-weight: 500;
 }
-.Footertext{
+.Footer__text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -32,4 +32,6 @@
     max-width: 60%;
     font-weight: 200;
     text-align: center;
+    margin-top: 10px;
+    opacity: 0.8;
 }

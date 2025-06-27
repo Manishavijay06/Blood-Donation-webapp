@@ -3,16 +3,16 @@ import "../styles/Navbar.css";
 export default function Navbar() {
   return (
     <>
-      <div className="navbar">
-        <div className="Logo">
-          <div className="Logo-img">
+      <div className="Navbar__container">
+        <div className="Navbar__Logo">
+          <div className="Navbar__Logo-img">
             <img src={heartlogo}></img>
           </div>
-          <div className="Logo-text">BloodConnect</div>
+          <div className="Navbar__Logo-text">BloodConnect</div>
         </div>
-        <div className="sign-container">
-            <div className="login">Log In</div>
-            <div className="signin">Sign Up</div>
+        <div className="Navbar__sign-container">
+            <div className="Navbar__login">Log In</div>
+            <div className="Navbar__signin">Sign Up</div>
         </div>
       </div>
     </>
