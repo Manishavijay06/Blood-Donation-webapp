@@ -1,47 +1,47 @@
-.Home-container {
+.Donorprofile__Home-container {
   width: 100%;
   min-width: 100vw;
   height: 100vh;
   box-sizing: border-box;
 }
-.CardsHolder {
+.Donorprofile__CardsHolder {
   display: flex;
   flex-direction: row;
   height: 80%;
   width: 100%;
 }
-.LeftNav {
+.Donorprofile__LeftNav {
   display: flex;
   flex-direction: row;
   width: 35%;
   padding: 0px 64px;
 }
-.Right {
+.Donorprofile__Right {
   display: flex;
   flex-direction: row;
   width: 65%;
 }
-.Profile-form {
+.Donorprofile__Profile-form {
   width: 90%;
   background-color: rgb(82, 82, 82);
   padding: 8px 16px;
   border-radius: 10px;
 }
-.Donor-head {
+.Donorprofile__Donor-head {
   font-size: 25px;
   font-weight: 500;
   margin-bottom: 2px;
 }
-.Donor-desc {
+.Donorprofile__Donor-desc {
   opacity: 0.7;
 }
-.Form-header {
+.Donorprofile__Form-header {
   margin-bottom: 20px;
 }
-.Frame1 {
+.Donorprofile__Frame1 {
   padding: 0px 5px;
 }
-.InputRow {
+.Donorprofile__InputRow {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -58,10 +58,26 @@ select {
   border: none;
   border-radius: 6px;
 }
-.InputField {
+.Donorprofile__InputField {
   flex: 1 1 0%;
 }
-.LabelStack {
+.Donorprofile__LabelStack {
   margin-bottom: 3px;
   font-weight: 600;
+}
+.Donorprofile__last {
+  margin-top: 1rem;
+}
+.Donorprofile__savebtn {
+  padding: 0.7rem;
+  background-color: rgb(219,97,97,100%);
+  font-weight: bolder;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  width: 100%;
+}
+.Donorprofile__savebtn:hover {
+  background-color:rgba(179, 77, 77, 1);
 }

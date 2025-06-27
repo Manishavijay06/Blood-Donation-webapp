@@ -4,14 +4,14 @@ import heartlogo from "../assets/HeartLogo.svg";
 export default function Footer(){
     return(
         <>
-            <div className="footer">
-                <div className="Logo">
-                    <div className="Logo-img">
+            <div className="Footer__container">
+                <div className="Footer__Logo">
+                    <div className="Footer__Logo-img">
                         <img src={heartlogo}></img>
                     </div>
-                    <div className="Logo-text">BloodConnect</div>
+                    <div className="Footer__Logo-text">BloodConnect</div>
                 </div>
-                <div className="Footertxt">Connecting hearts, saving lives. Every donation matters.</div>
+                <div className="Footer__text">Connecting hearts, saving lives. Every donation matters.</div>
             </div>
         </>
     )

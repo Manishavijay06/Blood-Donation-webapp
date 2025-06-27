@@ -7,7 +7,7 @@ import RecipientsPage from "./pages/RecipientsPage";
 function App() {
   return (
     <>
-      <HistoryDonation />
+      <ScheduleDonation />
     </>
   );
 }

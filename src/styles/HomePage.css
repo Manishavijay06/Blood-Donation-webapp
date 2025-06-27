@@ -1,9 +1,9 @@
-.Home-container{
+.HomePage__Home-container{
     width: 100%;
     min-width: 100vw;  
     box-sizing: border-box;
 }
-.Hero-section{
+.HomePage__Hero-section{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,7 +11,7 @@
     gap: 10px;
     margin-bottom: 64px;
 }
-.Hero-header{
+.HomePage__Hero-header{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -19,7 +19,7 @@
     font-size: 30px;
     font-weight: 500;
 }
-.Hero-description{
+.HomePage__Hero-description{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@
     font-weight: 200;
     text-align: center;
 }
-.Cards-holder{
+.HomePage__Cards-holder{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -38,7 +38,7 @@
     gap: 128px;
     margin-bottom: 64px;
 }
-.card{
+.HomePage__card{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -49,11 +49,11 @@
     background-color: rgb(80, 80, 80);
     border-radius: 10px;
 }
-.card:hover{
+.HomePage__card:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
-.Heart-logo-holder{
+.HomePage__Heart-logo-holder{
     margin: 12px;
     display: flex;
     flex-direction: row;
@@ -65,7 +65,7 @@
     border-radius: 10px;
     background-color: rgb(219,97,97,100%);
 }
-.Search-logo-holder{
+.HomePage__Search-logo-holder{
     margin: 12px;
     display: flex;
     flex-direction: row;
@@ -77,7 +77,7 @@
     border-radius: 10px;
     background-color: rgb(103,146,201,100%);
 }
-.Card-text-holder{
+.HomePage__Card-text-holder{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,18 +85,18 @@
     gap:5px;
     margin-bottom: 32px;
 }
-.Card-title{
+.HomePage__Card-title{
     font-size: 25px;
     font-weight: 400;
     text-align: center;
 }
-.Card-desc{
+.HomePage__Card-desc{
     font-size: 15px;
     font-weight: 300;
     text-align: center;
     opacity: 0.9;
 }
-.Perks{
+.HomePage__Perks{
     font-size: 16px;
     font-weight: 300;
     text-align: left;
@@ -104,7 +104,7 @@
     line-height: 25px;
     margin-bottom: 32px;
 }
-.DonorButton{
+.HomePage__DonorButton{
     padding: 13px;
     width: 80%;
     text-align: center;
@@ -112,7 +112,7 @@
     background-color: rgb(219,97,97,100%);
     color: white;
 }
-.RecipientButton{
+.HomePage__RecipientButton{
     padding: 13px;
     width: 80%;
     text-align: center;
@@ -120,11 +120,11 @@
     background-color: rgb(103,146,201,100%);
     color: white;
 }
-.RecipientButton:hover{
+.HomePage__RecipientButton:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
 }
-.DonorButton:hover{
+.HomePage__DonorButton:hover{
     transform: scale(1.1);
     transition: all 0.5s ease;
 }

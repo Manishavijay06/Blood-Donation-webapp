@@ -1,16 +1,16 @@
-.sidebar{
+.SideBar__container {
     width: 90%;
     height: 48%;
     background-color: rgb(82, 82, 82);
     padding: 8px 16px;
     border-radius: 10px;
 }
-.Navigation{
+.SideBar__Navigation {
     font-size: 20px;
     font-weight: 500;
     margin-bottom: 8px;
 }
-.LeftNav-pro{
+.SideBar__nav-item {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,40 +20,25 @@
     font-size: 16px;
     font-weight: 400;
     gap: 8px;
-    background-color:  rgb(219,97,97,100%);
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
-.LeftNav-sch{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 8px 4px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 400;
-    gap: 8px;
+.SideBar__nav-item:hover {
+    background-color: rgba(219, 97, 97, 0.7);
 }
-.LeftNav-his{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 8px 4px;
-    border-radius: 8px;
-    font-size: 16px;
-    font-weight: 400;
-    gap: 8px;
+.SideBar__nav-item--active {
+    background-color: rgb(219,97,97,100%);
 }
-.LeftNav-eli{
+.SideBar__icon {
     display: flex;
-    flex-direction: row;
     align-items: center;
-    justify-content: flex-start;
-    padding: 8px 4px;
-    border-radius: 8px;
+    justify-content: center;
+    width: 24px;
+    height: 24px;
+}
+.SideBar__text {
     font-size: 16px;
     font-weight: 400;
-    gap: 8px;
 }
 .last {
   margin-top: 1rem;

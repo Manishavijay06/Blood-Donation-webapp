@@ -1,4 +1,4 @@
-.navbar {
+.Navbar__container {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -9,27 +9,36 @@
   margin-bottom: 3%;
   border-bottom: 1px solid ;
 }
-.Logo {
+.Navbar__Logo {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   gap: 1%;
 }
-.Logo-img{
+.Navbar__Logo-img{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.Logo-text{
+.Navbar__Logo-text{
     font-size: 23px;
     font-weight: 500;
 }
-.sign-container{
+.Navbar__sign-container{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 20px;
+}
+.Navbar__login, .Navbar__signin {
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+.Navbar__login:hover, .Navbar__signin:hover {
+    background-color: rgba(255, 255, 255, 0.1);
 }

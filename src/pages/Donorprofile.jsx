@@ -4,29 +4,29 @@ import SideBar from "../components/SideBar.jsx";
 export default function Donorprofile(){
     return(
         <>
-            <div className="Home-container">
+            <div className="Donorprofile__Home-container">
                 <Navbar></Navbar>
-                <div className="CardsHolder">
-                    <div className="LeftNav">
+                <div className="Donorprofile__CardsHolder">
+                    <div className="Donorprofile__LeftNav">
                         <SideBar></SideBar>
                     </div>
-                    <div className="Right">
-                        <div className="Profile-form">
-                            <div className="Form-header">
-                                <div className="Donor-head">Donor Profile</div>
-                                <div className="Donor-desc">Complete your profile to help us match you with recipients</div>
+                    <div className="Donorprofile__Right">
+                        <div className="Donorprofile__Profile-form">
+                            <div className="Donorprofile__Form-header">
+                                <div className="Donorprofile__Donor-head">Donor Profile</div>
+                                <div className="Donorprofile__Donor-desc">Complete your profile to help us match you with recipients</div>
                             </div>
-                            <div className="Frame1">
-                                <div className="InputRow">
-                                    <div className="InputField">
-                                        <div className="LabelStack">Full Name</div>
-                                        <div className="TextInput">
+                            <div className="Donorprofile__Frame1">
+                                <div className="Donorprofile__InputRow">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Full Name</div>
+                                        <div className="Donorprofile__TextInput">
                                             <input type="text" placeholder="Enter your Name"></input>
                                         </div>
                                     </div>
-                                    <div className="InputField">
-                                        <div className="LabelStack">Blood Type</div>
-                                        <div className="TextInput">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Blood Type</div>
+                                        <div className="Donorprofile__TextInput">
                                             <select >
                                                 <option>Select your blood type</option>
                                                 <option>A+</option>
@@ -41,52 +41,52 @@ export default function Donorprofile(){
                                         </div>
                                     </div>
                                 </div>
-                                <div className="InputRow">
-                                    <div className="InputField">
-                                        <div className="LabelStack">Email</div>
-                                        <div className="TextInput">
+                                <div className="Donorprofile__InputRow">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Email</div>
+                                        <div className="Donorprofile__TextInput">
                                             <input type="email" placeholder="Enter your Email"></input>
                                         </div>
                                     </div>
-                                    <div className="InputField">
-                                        <div className="LabelStack">Phone Number</div>
-                                        <div className="TextInput">
-                                            <input type="tel" autocomplete="off" />
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Phone Number</div>
+                                        <div className="Donorprofile__TextInput">
+                                            <input type="tel" autoComplete="off" />
                                         </div>
                                     </div>
                                 </div>
-                                <div className="InputRow">
-                                    <div className="InputField">
-                                        <div className="LabelStack">Age</div>
-                                        <div className="TextInput">
+                                <div className="Donorprofile__InputRow">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Age</div>
+                                        <div className="Donorprofile__TextInput">
                                             <input type="number" placeholder="Enter your Age" min="18"></input>
                                         </div>
                                     </div>
-                                    <div className="InputField">
-                                        <div className="LabelStack">Weight (in kg)</div>
-                                        <div className="TextInput">
-                                            <input type="number" placeholder="Enter your weight" autocomplete="off"></input>
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Weight (in kg)</div>
+                                        <div className="Donorprofile__TextInput">
+                                            <input type="number" placeholder="Enter your weight" autoComplete="off"></input>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="InputRow">
-                                    <div className="InputField">
-                                        <div className="LabelStack">Address</div>
-                                        <div className="TextInput">
+                                <div className="Donorprofile__InputRow">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Address</div>
+                                        <div className="Donorprofile__TextInput">
                                             <input type="text" placeholder="Enter your Address" ></input>
                                         </div>
                                     </div>
                                 </div>
-                                <div className="InputRow">
-                                    <div className="InputField">
-                                        <div className="LabelStack">Medical History (optional)</div>
-                                        <div className="TextInput">
+                                <div className="Donorprofile__InputRow">
+                                    <div className="Donorprofile__InputField">
+                                        <div className="Donorprofile__LabelStack">Medical History (optional)</div>
+                                        <div className="Donorprofile__TextInput">
                                             <textarea  rows="4" placeholder="Any relevant medical history or medications" ></textarea>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="last">
-                                    <button class="savebtn">Save Profile</button>
+                                <div className="Donorprofile__last">
+                                    <button className="Donorprofile__savebtn">Save Profile</button>
                                 </div>
                             </div>
                         </div>
