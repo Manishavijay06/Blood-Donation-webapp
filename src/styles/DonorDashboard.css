@@ -1,0 +1,23 @@
+.DonorDashboard__Home-container {
+    width: 100%;
+    min-width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+}
+.DonorDashboard__CardsHolder {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    width: 100%;
+}
+.DonorDashboard__LeftNav {
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    padding: 0px 64px;
+}
+.DonorDashboard__Right {
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+}

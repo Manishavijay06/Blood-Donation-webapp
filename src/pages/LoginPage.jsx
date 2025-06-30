@@ -2,20 +2,20 @@ import React from "react";
 import heartlogo from "../assets/heartlogo.svg";
 import "../styles/LoginPage.css";
 import {useState} from "react";
-import {signInWithEmailAndPassword,fetchSignInMethodsForEmail} from "firebase/auth";
+import {signInWithEmailAndPassword} from "firebase/auth";
 import {auth} from "../firebase.js";
+import { useNavigate } from "react-router-dom";
 
 export default function LoginPage() {
+    const navigate=useNavigate();
     const [email,setEmail]=useState("");
     const [password,setPassword]=useState("");
     const handleLogin=async()=>{
         try{
-            
             const user=await signInWithEmailAndPassword(auth,email,password);
             console.log(user);
         }
         catch (error) {
-            // 🔐 Handle known Firebase errors
             if (error.code === "auth/wrong-password") {
               alert("Incorrect password. Please try again.");
             } else if (error.code === "auth/invalid-email") {
@@ -41,12 +41,24 @@ export default function LoginPage() {
 
                 <div className="LoginPage_form_group">
                     <label>Email</label>
-                    <input type="email" placeholder="Enter your email" onChange={(e)=>setEmail(e.target.value)}></input>
+                    <input 
+                        type="email" 
+                        placeholder="Enter your email" 
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                        required
+                    />
                 </div>
 
                 <div className="LoginPage_form_group">
                     <label>Password</label>
-                    <input type="password" placeholder="Enter your password" onChange={(e)=>setPassword(e.target.value)}></input>
+                    <input 
+                        type="password" 
+                        placeholder="Enter your password" 
+                        value={password}
+                        onChange={(e) => setPassword(e.target.value)}
+                        required
+                    />
                 </div>
 
                 <div className="LoginPage_form_forgot_password">
@@ -57,7 +69,7 @@ export default function LoginPage() {
 
                 <div className="LoginPage_dont_have_acc">
                     <span>Don't have an account?</span>
-                    <a href="#" className="LoginPage_dont_have_acc_link">Register</a>
+                    <a href="#" className="LoginPage_dont_have_acc_link" onClick={()=>navigate("/signup")}>Register</a>
                 </div>
             </div>
         </div>

@@ -3,9 +3,10 @@ import Footer from "../components/Footer";
 import "../styles/HomePage.css";
 import heart from "../assets/solar_heart-bold-duotone.svg";
 import search from "../assets/SearchLogo.svg";
-
+import { useNavigate } from "react-router-dom";
 
 export default function HomePage(){
+    const navigate=useNavigate();
     return(<>
         <div className="HomePage__Home-container">
             <Navbar></Navbar>
@@ -35,7 +36,7 @@ export default function HomePage(){
                             <li>Get notified when blood is needed</li>
                         </ul>
                     </div>
-                    <div className="HomePage__DonorButton">Become a Donor</div>
+                    <div className="HomePage__DonorButton" onClick={()=>navigate("/donor-dashboard")}>Become a Donor</div>
                 </div>
 
                 <div className="HomePage__card">
@@ -54,7 +55,7 @@ export default function HomePage(){
                             <li>Connect with nearby donors</li>
                         </ul>
                     </div>
-                    <div className="HomePage__RecipientButton">Find Donors</div>
+                    <div className="HomePage__RecipientButton" onClick={()=>navigate("/recipients")}>Find Donors</div>
                 </div>
                 
             </div>

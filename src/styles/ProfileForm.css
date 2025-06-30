@@ -1,26 +1,3 @@
-.Donorprofile__Home-container {
-  width: 100%;
-  min-width: 100vw;
-  height: 100vh;
-  box-sizing: border-box;
-}
-.Donorprofile__CardsHolder {
-  display: flex;
-  flex-direction: row;
-  height: 80%;
-  width: 100%;
-}
-.Donorprofile__LeftNav {
-  display: flex;
-  flex-direction: row;
-  width: 35%;
-  padding: 0px 64px;
-}
-.Donorprofile__Right {
-  display: flex;
-  flex-direction: row;
-  width: 65%;
-}
 .Donorprofile__Profile-form {
   width: 90%;
   background-color: rgb(82, 82, 82);
