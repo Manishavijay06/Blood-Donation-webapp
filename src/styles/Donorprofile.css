@@ -70,7 +70,7 @@ select {
 }
 .Donorprofile__savebtn {
   padding: 0.7rem;
-  background-color: rgb(219,97,97,100%);
+  background-color: rgb(219, 97, 97, 100%);
   font-weight: bolder;
   color: white;
   border: none;
@@ -79,5 +79,5 @@ select {
   width: 100%;
 }
 .Donorprofile__savebtn:hover {
-  background-color:rgba(179, 77, 77, 1);
+  background-color: rgba(179, 77, 77, 1);
 }
