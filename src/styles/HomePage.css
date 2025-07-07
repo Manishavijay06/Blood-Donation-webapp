@@ -111,6 +111,7 @@
     border-radius: 10px;
     background-color: rgb(219,97,97,100%);
     color: white;
+    cursor: pointer;
 }
 .HomePage__RecipientButton{
     padding: 13px;
@@ -119,6 +120,7 @@
     border-radius: 10px;
     background-color: rgb(103,146,201,100%);
     color: white;
+    cursor: pointer;
 }
 .HomePage__RecipientButton:hover{
     transform: scale(1.1);

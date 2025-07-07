@@ -27,6 +27,9 @@ export default function LoginPage() {
               alert("Login failed: " + error.message);
             }
         }
+        finally{
+            navigate('/');
+        }
     }
     return (
         <div className="LoginPage_container">
@@ -69,7 +72,7 @@ export default function LoginPage() {
 
                 <div className="LoginPage_dont_have_acc">
                     <span>Don't have an account?</span>
-                    <a href="#" className="LoginPage_dont_have_acc_link" onClick={()=>navigate("/signup")}>Register</a>
+                    <div className="LoginPage_dont_have_acc_link" onClick={()=>navigate("/signup")}>Register</div>
                 </div>
             </div>
         </div>

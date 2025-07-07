@@ -40,10 +40,31 @@ select {
 }
 .Donorprofile__LabelStack {
   margin-bottom: 3px;
+  font-size: 18px;
   font-weight: 600;
 }
 .Donorprofile__last {
-  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.Donorprofile__last button {
+  min-width: 120px;
+  padding: 8px 16px;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.Donorprofile__last button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
 }
 .Donorprofile__savebtn {
   padding: 0.7rem;

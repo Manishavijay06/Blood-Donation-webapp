@@ -20,7 +20,7 @@ export default function SignUpPage() {
     const [confirmPassword, setConfirmPassword] = useState("");
 
     const handleSignUp = async (e) => {
-        e.preventDefault(); // Prevent form submission refresh
+        e.preventDefault(); 
 
         // Validate all required fields
         if (!name || !email || !phoneNumber || !age || !bloodGroup || !location || !password || !confirmPassword) {
@@ -28,13 +28,11 @@ export default function SignUpPage() {
             return;
         }
 
-        // Validate age
         if (age < 18 || age > 65) {
             alert("Age must be between 18 and 65");
             return;
         }
 
-        // Validate phone number (basic validation)
         if (phoneNumber.length !== 10 || !/^\d+$/.test(phoneNumber)) {
             alert("Please enter a valid 10-digit phone number");
             return;
@@ -65,10 +63,7 @@ export default function SignUpPage() {
                 location,
                 createdAt: new Date().toISOString()
             });
-
-            alert("Account created successfully!");
-            // Navigate to login page after successful signup
-            navigate("/login");
+            navigate("/");
         } catch (error) {
             if (error.code === "auth/email-already-in-use") {
                 alert("This email is already registered. Please log in.");

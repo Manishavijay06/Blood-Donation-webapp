@@ -3,8 +3,6 @@
   height: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 .ScheduleDonation__Form {
   width: 90%;
@@ -12,6 +10,7 @@
   padding: 8px 16px;
   border-radius: 10px;
   height: 60%;
+  margin-bottom: 3%;
 }
 .ScheduleDonation__Donor-head {
   font-size: 25px;
@@ -50,6 +49,7 @@ select {
 .ScheduleDonation__LabelStack {
   margin-bottom: 3px;
   font-weight: 600;
+  font-size: 18px;
 }
 .ScheduleDonation__upcoming-appointments{
   width: 90%;
