@@ -1,18 +1,9 @@
-import "../styles/ScheduleDonation.css";
-import Navbar from "../components/Navbar";
-import SideBar from "../components/SideBar";
+import "../styles/ScheduleDonationForm.css";
 import calendar from "../assets/mynaui_calendar.svg";
 
-export default function ScheduleDonation() {
-  return (
-    <>
-      <div className="ScheduleDonation__Page">
-        <Navbar></Navbar>
-        <div className="ScheduleDonation__CardsHolder">
-          <div className="ScheduleDonation__LeftNav">
-            <SideBar></SideBar>
-          </div>
-          <div className="ScheduleDonation__Right">
+export default function ScheduleDonationForm(){
+    return(
+        <><div className="ScheduleDonation__Form-container">
             <div className="ScheduleDonation__Form">
                 <div className="ScheduleDonation__Form-header">
                     <div className="ScheduleDonation__Donor-head">Schedule Donation</div>
@@ -63,9 +54,7 @@ export default function ScheduleDonation() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </>
-  );
+            </div>
+        </>
+    )
 }

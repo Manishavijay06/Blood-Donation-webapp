@@ -1,0 +1,128 @@
+.LoginPage_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2% 0;
+}
+
+.LoginPage_form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.LoginPage_icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 15px;
+}
+.LoginPage_icon img{
+    height: 100%;
+    width: auto;
+}
+.LoginPage_form-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.LoginPage_form-header-title{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    margin-bottom: 8px;
+}
+.LoginPage_form-header-desc{
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    opacity: 0.7;
+}
+.LoginPage_form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.LoginPage_form_group label {
+    font-size: 15px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 5px;
+}
+.LoginPage_form_group input {
+    width: 100%;
+    border: 1px solid rgb(0, 0, 0, 0.4);
+    border-radius: 7px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+    background-color: #676767;
+}
+.LoginPage_form_group input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+.LoginPage_form_forgot_password{
+    display: flex;
+    justify-content: flex-end;
+    margin: 5px 0 15px;
+}
+.LoginPage_form_forgot_password_text{
+    font-size: 14px;
+    color: rgba(219, 97, 97, 0.7);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.LoginPage_form_forgot_password_text:hover{
+    color: rgba(219, 97, 97, 1);
+    text-decoration: underline;
+}
+.LoginPage_form_button{
+    width: 100%;
+    background-color: rgba(219, 97, 97, 0.7);
+    border: none;
+    border-radius: 7px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    cursor: pointer;
+    margin: 10px 0;
+    transition: background-color 0.2s ease;
+}
+.LoginPage_form_button:hover{
+    background-color: rgba(219, 97, 97, 1);
+}
+.LoginPage_dont_have_acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.LoginPage_dont_have_acc span{
+    font-size: 14px;
+    color: #000;
+    opacity: 0.7;
+}
+.LoginPage_dont_have_acc_link{
+    font-size: 14px;
+    color: rgba(219, 97, 97, 0.7);
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+.LoginPage_dont_have_acc_link:hover{
+    color: rgba(219, 97, 97, 1);
+    text-decoration: underline;
+}

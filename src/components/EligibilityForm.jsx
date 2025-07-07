@@ -1,19 +1,10 @@
-import Navbar from "../components/Navbar";
-import SideBar from "../components/SideBar";
-import "../styles/EligibilityDonation.css";
+import "../styles/EligibilityForm.css";
 import heart_icon from "../assets/HeartLogo.svg";
 
-export default function EligibilityDonation(){
+export default function EligibilityForm(){
     return(
         <>
-        <div className="EligibilityDonation__Home-container">
-            <Navbar></Navbar>
-            <div className="EligibilityDonation__CardsHolder">
-                <div className="EligibilityDonation__LeftNav">
-                    <SideBar></SideBar>
-                </div>
-                <div className="EligibilityDonation__Right">
-                    <div className="EligibilityDonation__Profile-form">
+            <div className="EligibilityDonation__Profile-form">
                         <div className="EligibilityDonation__Form-header">
                             <div className="EligibilityDonation__Donor-head">History Donation</div>
                             <div className="EligibilityDonation__Donor-desc">Your contribution to saving lives</div>
@@ -65,9 +56,6 @@ export default function EligibilityDonation(){
                             <button className="EligibilityDonation__savebtn">Complete Health Questionnaire</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
         </>
     )
 }

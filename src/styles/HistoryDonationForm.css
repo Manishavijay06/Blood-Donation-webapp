@@ -1,25 +1,3 @@
-.HistoryDonation__Home-container {
-  width: 100%;
-  min-width: 100vw;
-  box-sizing: border-box;
-}
-.HistoryDonation__CardsHolder {
-  display: flex;
-  flex-direction: row;
-  width: 100%;
-}
-.HistoryDonation__LeftNav {
-  display: flex;
-  flex-direction: row;
-  width: 35%;
-  padding: 0px 64px;
-}
-.HistoryDonation__Right {
-  display: flex;
-  flex-direction: row;
-  width: 65%;
-  align-items: flex-start;
-}
 .HistoryDonation__Profile-form {
   width: 90%;
   background-color: rgb(82, 82, 82);
@@ -79,6 +57,7 @@
   font-size: 15px;
 }
 .HistoryDonation__total-donations{
+  margin: 20px 0px;
   padding: 30px;
   width: 100%;
   display: flex;
