@@ -19,7 +19,6 @@ export default function ProfileForm({ donorData, currentUser }) {
     const [error, setError] = useState("");
     const [success, setSuccess] = useState("");
 
-    // Initialize form data from donorData
     useEffect(() => {
         if (donorData) {
             setUserFormData({
@@ -47,7 +46,6 @@ export default function ProfileForm({ donorData, currentUser }) {
     };
 
     const handleCancel = () => {
-        // Reset to donorData
         if (donorData) {
             setUserFormData({
                 name: donorData.name || "",
