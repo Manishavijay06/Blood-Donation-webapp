@@ -3,3 +3,54 @@
   min-width: 100vw;
   box-sizing: border-box;
 }
+
+.Recipients__Form-container {
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.Recipients__Form-header {
+  margin-bottom: 20px;
+}
+
+.Recipients__InputRow {
+  margin-bottom: 15px;
+}
+
+.Recipients__InputRow label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.Recipients__InputRow input,
+.Recipients__InputRow select,
+.Recipients__InputRow textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
